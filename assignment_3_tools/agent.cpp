@@ -1,12 +1,33 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <cstdlib>
 
 using namespace std;
   
 int main(int argc, char** argv)
 {
-    int last_move = 0;
+	std::ofstream outf{ "opmoves.dat" };
+	srand(time(NULL);
+	if( strcmp(argv[2], "zero" ) == 1)
+	      {
+		int initial=rand()%1;
+	      	switch(initial)
+	      		{
+				case 0:
+					cout<<"confess";//initial confess
+				break;
+				case 1:
+					cout<<"silent";//initial silence
+				break;
+	      		}
+	      }
+	else
+	      {
+		       
+	      }
+	      
+  /*  int last_move = 0;
     std::ofstream outf{ "mymoves.dat" };
     //cout << "You have entered " << argc
     //     << " arguments:" << "\n";
@@ -23,6 +44,6 @@ int main(int argc, char** argv)
       cout << "silent";
       outf << "silent";
     }
-  
+  */
     return 0;
 }
