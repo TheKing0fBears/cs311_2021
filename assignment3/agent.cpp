@@ -7,7 +7,7 @@ using namespace std;
   
 int main(int argc, char** argv)
 {
-	std::ofstream outf{ "opmoves.dat" };
+	//std::ofstream outf{ "opmoves.dat" };
 	srand(time(NULL));
 	if( strcmp(argv[2], "zero" ) == 1)
 	      {
@@ -26,11 +26,11 @@ int main(int argc, char** argv)
 	      {
 		       if( strcmp(argv[2], "silent" ) == 0){
 		       		cout << "confess";
-		    		outf << "confess";
+		    		//outf << "confess";
 		       }
 			else {
       				cout << "confess";
-      				outf << "silent";
+      				//outf << "silent";
 
 			}
 	   }
