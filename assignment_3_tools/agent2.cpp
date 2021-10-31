@@ -29,7 +29,7 @@ int main(int argc, char** argv)
 		    		outf << "confess";
 		       }
 			else {
-      				cout << "bro";
+      				cout << "confess";
       				outf << "silent";
 
 			}
