@@ -24,8 +24,13 @@ int main(int argc, char** argv)
 	      }
 	else
 	      {
-		       
-	      }
+		       if( strcmp(argv[2], "silent" ) == 0){
+		       		cout << "confess";
+		    		outf << "confess";
+		       }else {
+      				cout << "silent";
+      				outf << "silent";
+	      			}
 	      
   /*  int last_move = 0;
     std::ofstream outf{ "mymoves.dat" };
