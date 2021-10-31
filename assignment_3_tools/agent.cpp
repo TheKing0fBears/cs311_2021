@@ -31,7 +31,9 @@ int main(int argc, char** argv)
 			else {
       				cout << "silent";
       				outf << "silent";
-	      			}
+
+			}
+	   }
     return 0;
-}
+
 }
