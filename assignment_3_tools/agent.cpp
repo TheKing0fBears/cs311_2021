@@ -8,6 +8,6 @@ int main(int argc,char *argv[])
   cout<<argc<<" arguments have been entered";
 
   cout<<"confess";
-  
+  return 0;
   //bro
 }
